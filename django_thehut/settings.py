@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['the-hut-project.herokuapp.com', 'localhost', '8000-martin-kod-the-hut-proje-x0ta65gtv6.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['the-hut-project-095c4babfa78.herokuapp.com', 'localhost',
+                 '8000-martin-kod-the-hut-proje-x0ta65gtv6.us2.codeanyapp.com']
 
 
 # Application definition
