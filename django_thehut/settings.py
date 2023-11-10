@@ -28,9 +28,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-# X_FRAM_OPTIONS = 'SAMEORIGIN'
+X_FRAM_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['the-hut-project-095c4babfa78.herokuapp.com', 'localhost',
                  '8000-martin-kod-the-hut-proje-x0ta65gtv6.us2.codeanyapp.com']
