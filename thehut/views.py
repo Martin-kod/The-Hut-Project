@@ -24,7 +24,3 @@ def booking(request):
         )
         return redirect('index')
     return render(request, 'booking.html')
-
-
-def hut_admin(request):
-    return render(request, 'hut_admin.html')

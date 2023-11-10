@@ -1,39 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Hut
 
-Welcome,
+The Hut is a website for a restaurant that houses a build in booking system so that customers can easily book tables at this secluded eatery. This nature adjacent restaurant with local fresh produce has everything a proper foodie is looking for, but due to it being so isolated it needs a presence on the world wide web. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The site visitors will get informed about the menu and opening hours and can't resist making a booking on the bookingform on the site. The goal of the project when it comes to the admin of the site is to give them all the information they need on the admin page of the site. There they can also edit and delete bookings.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The features of this project have been chosen in order to optimize user interation of the site.
 
-`python3 -m http.server`
+### Existing Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Navigation Bar__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  - The navigation bar helps the user orient on the site and can access the different pages of the site. It also looks the same on the different pages to improve predictability.
+  
 
-`http_server`
+![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Home Page__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - The home page offers useful information about the restaurant with an extra link to the booking page when the salivation begins.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-To log into the Heroku toolbelt CLI:
+- __The Footer__
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The footer gives the website a predictable and stable feeling, contributing the copyrights of the page.  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
----
+- __Booking Page__
 
-Happy coding!
+  - The booking page is the main feature of the site where the user can book a table at the restaurant in one swift action by filling out the form and clicking the button 'Book table'. 
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+### Features Left to Implement
+
+- More social links in order to boost the publicity of the site.
+- A map to guide visitors to the restaurant.
+- A gallery with enticing photos to tempt the visitors of the site to make a booking.
+
+## Testing
+
+The site has been manually tested without errors. 
+
+### Validator Testing
+
+- HTML
+  - No errors when passing code into [W3C validator](https://validator.w3.org/)
+- CSS
+  - No errors when passing code into [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+- Python
+  - No errors occuring in the pep8 validator except those due to pre-made django strings being too long.
+
+### Unfixed Bugs
+
+No bugs left unfixed
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+- The site was deployed to Heroku. The steps for deployment are as follows:
+
+1. Create new app
+2. Set Config Vars to your project
+3. Make sure to have a requirements.txt file as well as a Procfile in your root directory
+4. Access repository from GitHub
+5. Click deploy
+
+The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+
+## Credits
+
+The image was sourced at [pexels.com](https://www.pexels.com/)
+
